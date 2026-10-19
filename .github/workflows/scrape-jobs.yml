@@ -37,7 +37,7 @@ jobs:
 
           URL = "https://www.freejobalert.com/police-defence-jobs/"
           HEADERS = {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
               'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
           }
 
@@ -48,7 +48,6 @@ jobs:
               
               jobs = []
               
-              # Parse ALL tables on the page
               tables = soup.find_all('table')
               for table in tables:
                   rows = table.find_all('tr')
@@ -59,12 +58,10 @@ jobs:
                       
                       col_texts = [c.get_text(strip=True) for c in cols]
                       
-                      # Skip header rows
                       header_text = ' '.join(col_texts).lower()
                       if any(h in header_text for h in ['post date', 'recruitment board', 'exam / post name', 'qualification', 'advt no', 'last date']):
                           continue
                       
-                      # Expected: Post Date, Recruitment Board, Exam/Post Name, Qualification, Advt No, Last Date
                       if len(col_texts) >= 6:
                           post_date = col_texts[0]
                           org = col_texts[1]
@@ -73,7 +70,6 @@ jobs:
                           advt_no = col_texts[4]
                           last_date = col_texts[5]
                           
-                          # Find link
                           link = ''
                           link_tag = row.find('a', href=True)
                           if link_tag:
@@ -81,7 +77,6 @@ jobs:
                               if not link.startswith('http'):
                                   link = 'https://www.freejobalert.com' + link
                           
-                          # Determine type (Central vs State)
                           central_keywords = [
                               'upsc', 'ssc', 'rrb', 'ibps', 'rbi', 'sbi', 'ntpc', 'bhel', 'gail', 'iocl', 'ongc', 
                               'sail', 'coal india', 'drdo', 'isro', 'csir', 'icmr', 'uidai', 'cdac', 'nvs', 'kvs', 
@@ -113,7 +108,6 @@ jobs:
               jobs = scrape()
               print(f"Scraped {len(jobs)} jobs")
               
-              # Deduplicate by link
               seen = set()
               unique_jobs = []
               for job in jobs:
