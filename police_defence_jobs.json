@@ -1,498 +1,558 @@
 {
   "source": "FreeJobAlert Police/Defence Jobs",
   "url": "https://www.freejobalert.com/police-defence-jobs/",
-  "scraped_at": "2026-10-19T21:30:00Z",
-  "count": 45,
+  "scraped_at": "2026-10-19T22:24:18.840823Z",
+  "count": 50,
   "jobs": [
     {
-      "title": "Indian Army TES 57 Online Form 2026",
-      "organization": "Indian Army",
-      "qualification": "12TH",
-      "advt_no": "10601/11/0031/2627",
-      "last_date": "12-11-2026",
-      "post_date": "16/10/2026",
-      "link": "https://www.freejobalert.com/indian-army-tes-57-oct26/",
-      "type": "Central"
-    },
-    {
-      "title": "Nagaland Police 1,137 Constable GD Online Form 2026",
-      "organization": "Nagaland Police",
-      "qualification": "8TH, 6th",
-      "advt_no": "–",
-      "last_date": "30-11-2026",
-      "post_date": "16/10/2026",
-      "link": "https://www.freejobalert.com/nagaland-police-constable-oct26/",
-      "type": "State"
-    },
-    {
-      "title": "MP Police 1000 Constable Online Form 2026",
-      "organization": "MP Police",
-      "qualification": "10TH",
-      "advt_no": "पुमु/2/चयन/स-3/591/2026",
-      "last_date": "29-10-2026",
-      "post_date": "15/10/2026",
-      "link": "https://www.freejobalert.com/mp-police-constable-oct26/",
-      "type": "State"
-    },
-    {
-      "title": "SSC CGL Admit Card 2026",
-      "organization": "SSC",
-      "qualification": "Graduate",
-      "advt_no": "–",
-      "last_date": "–",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/ssc-cgl-admit-card-2026/",
-      "type": "Central"
-    },
-    {
-      "title": "KP Constable PET Admit Card 2026",
-      "organization": "Karnataka Police",
-      "qualification": "10TH, 12TH",
-      "advt_no": "–",
-      "last_date": "–",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/kp-constable-pet-admit-card-2026/",
-      "type": "State"
-    },
-    {
-      "title": "Assam Rifles 354 Technical & Tradesman Rally 2026",
-      "organization": "Assam Rifles",
-      "qualification": "Diploma, ITI, 12TH, 10TH",
-      "advt_no": "–",
-      "last_date": "28-10-2026",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/assam-rifles-technical-tradesman-oct26/",
-      "type": "Central"
-    },
-    {
-      "title": "UP Police Constable Final Result 2026 Out",
-      "organization": "UP Police",
-      "qualification": "10TH, 12TH",
-      "advt_no": "–",
-      "last_date": "–",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/up-police-constable-final-result-2026/",
-      "type": "State"
-    },
-    {
-      "title": "SSB Head Constable Ministerial Result 2026 Out",
-      "organization": "SSB",
-      "qualification": "12TH",
-      "advt_no": "–",
-      "last_date": "–",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/ssb-hc-ministerial-result-2026/",
-      "type": "Central"
-    },
-    {
-      "title": "Kolkata Police Constable Result 2026",
-      "organization": "Kolkata Police",
-      "qualification": "10TH",
-      "advt_no": "–",
-      "last_date": "–",
-      "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/kolkata-police-constable-result-2026/",
-      "type": "State"
-    },
-    {
-      "title": "DRDE Recruitment 2026 – Apply Online for 8 Paid Intern Posts",
+      "title": "Paid Intern     – 8 Posts",
       "organization": "DRDE",
       "qualification": "B.Tech/B.E, Any Graduate",
       "advt_no": "DRDE/HRD/Paid Intern/2026/03",
       "last_date": "14-11-2026",
       "post_date": "19/10/2026",
-      "link": "https://www.freejobalert.com/drde-recruitment-2026-paid-intern/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drde-recruitment-2026-paid-intern-3074392",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834230Z"
     },
     {
-      "title": "Sainik School Chittorgarh TGT and Mess Manager – 5 Posts",
+      "title": "TGT and Mess Manager     – 5 Posts",
       "organization": "Sainik School Chittorgarh",
       "qualification": "10TH, B.Ed",
       "advt_no": "SSC/201/M",
       "last_date": "07-11-2026",
       "post_date": "17/10/2026",
-      "link": "https://www.freejobalert.com/sainik-school-chittorgarh-tgt-mess-manager-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/sainik-school-chittorgarh-recruitment-2026-apply-offline-for-5-tgt-mess-manager-posts-3074331",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834368Z"
     },
     {
-      "title": "Sainik School Rewari Nursing Assistant, Medical Officer – 5 Posts",
+      "title": "Nursing Assistant, Medical Officer and More     – 5 Posts",
       "organization": "Sainik School Rewari",
       "qualification": "MBBS, 10TH, Diploma, Any Graduate",
       "advt_no": "–",
       "last_date": "06-11-2026",
       "post_date": "16/10/2026",
-      "link": "https://www.freejobalert.com/sainik-school-rewari-nursing-assistant-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/sainik-school-rewari-recruitment-2026-apply-offline-for-5-nursing-assistant-pgt-and-other-posts-3074253",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834534Z"
     },
     {
-      "title": "Indian Army Commissioned Officer – 90 Posts",
+      "title": "Commissioned Officer     – 90 Posts",
       "organization": "Indian Army",
       "qualification": "12TH",
       "advt_no": "10601/11/0031/2627",
       "last_date": "12-11-2026",
       "post_date": "16/10/2026",
-      "link": "https://www.freejobalert.com/indian-army-commissioned-officer-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/indian-army-tes-57-recruitment-2026-apply-online-for-10-2-technical-entry-scheme-3071328",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834674Z"
     },
     {
-      "title": "DRDO LRDE Consultant – 6 Posts",
+      "title": "Consultant     – 6 Posts",
       "organization": "DRDO LRDE",
       "qualification": "Diploma",
       "advt_no": "DRDO/LRDE/KRMD/Consultant/001/2026",
       "last_date": "21 Days",
       "post_date": "15/10/2026",
-      "link": "https://www.freejobalert.com/drdo-lrde-consultant-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-lrde-consultant-recruitment-2026-apply-online-3073821",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834772Z"
     },
     {
-      "title": "OFH VFJ Hospital MBBS Doctor – 2 Posts",
+      "title": "MBBS Doctor     – 2 Posts",
       "organization": "OFH VFJ Hospital",
       "qualification": "MBBS",
       "advt_no": "254/01/2026/HMP/OFH-VFJ/H&S/MED",
       "last_date": "30-10-2026",
       "post_date": "15/10/2026",
-      "link": "https://www.freejobalert.com/ofh-vfj-hospital-mbbs-doctor-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/ofh-vfj-hospital-mbbs-doctor-recruitment-2026-3073775",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.834879Z"
     },
     {
-      "title": "DMRL DRDO Consultant – 7 Posts",
+      "title": "Rifleman, Warrant Officer, Havildar     – 354 Posts",
+      "organization": "Assam Rifles",
+      "qualification": "Diploma, ITI, 12TH, 10TH",
+      "advt_no": "–",
+      "last_date": "28-10-2026",
+      "post_date": "15/10/2026",
+      "link": "https://www.freejobalert.com/articles/assam-riffles-technical-and-tradesman-recruitment-rally-notification-2026-3068597",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.834991Z"
+    },
+    {
+      "title": "Consultant     – 7 Posts",
       "organization": "DMRL DRDO",
       "qualification": "B.Sc, B.Tech/B.E, Diploma, M.Phil/Ph.D, M.Sc",
       "advt_no": "DMRL/HRD/2026/Consultants/01",
       "last_date": "04-11-2026",
       "post_date": "14/10/2026",
-      "link": "https://www.freejobalert.com/dmrl-drdo-consultant-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/dmrl-drdo-consultant-recruitment-2026-apply-online-for-7-posts-3073589",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835088Z"
     },
     {
-      "title": "Indian Coast Guard Chargeman – 3 Posts",
+      "title": "Chargeman     – 3 Posts",
       "organization": "Indian Coast Guard",
       "qualification": "Diploma",
       "advt_no": "–",
       "last_date": "24-11-2026",
       "post_date": "13/10/2026",
-      "link": "https://www.freejobalert.com/indian-coast-guard-chargeman-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/indian-coast-guard-chargeman-recruitment-2026-apply-offline-3072595",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835190Z"
     },
     {
-      "title": "APS Beas PGT, TGT, Head Clerk – 13 Posts",
+      "title": "PGT, TGT, Head Clerk and More     – 13 Posts",
       "organization": "APS Beas",
       "qualification": "10TH, 12TH, Any Graduate, B.Ed, B.Sc, B.Tech/B.E, BCA, Diploma, M.P.Ed",
       "advt_no": "–",
       "last_date": "30-10-2026",
       "post_date": "12/10/2026",
-      "link": "https://www.freejobalert.com/aps-beas-pgt-tgt-head-clerk-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/aps-beas-teaching-non-teaching-recruitment-2026-apply-offline-for-13-pgt-tgt-head-clerk-and-more-posts-3072823",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.835300Z"
     },
     {
-      "title": "CRPF Sports Quota – 521 Posts",
+      "title": "Sports Quota     – 521 Posts",
       "organization": "CRPF",
       "qualification": "12TH, 10TH",
       "advt_no": "R.II-21/2026-Sports",
       "last_date": "11-11-2026",
       "post_date": "12/10/2026",
-      "link": "https://www.freejobalert.com/crpf-sports-quota-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/crpf-sports-quota-recruitment-2026-apply-online-for-521-head-constable-constable-posts-3068927",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835399Z"
     },
     {
-      "title": "ITBP Constable (General Duty) – 126 Posts",
+      "title": "Constable (General Duty)     – 126 Posts",
       "organization": "ITBP",
       "qualification": "10TH",
       "advt_no": "EN 27/68",
       "last_date": "01-11-2026",
       "post_date": "12/10/2026",
-      "link": "https://www.freejobalert.com/itbp-constable-gd-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/itbpf-sports-quota-recruitment-2026-notification-out-apply-online-for-126-constable-gd-posts-3070096",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835521Z"
     },
     {
-      "title": "Indian Coast Guard Navik, Yantrik & Hygienist – 365 Posts",
+      "title": "Navik, Yantrik & Hygienist     – 365 Posts",
       "organization": "Indian Coast Guard",
       "qualification": "Diploma, ITI, 12TH, 10TH",
       "advt_no": "CGEPT – Batches 01/2027 & 02/2027",
       "last_date": "21-10-2026",
       "post_date": "12/10/2026",
-      "link": "https://www.freejobalert.com/indian-coast-guard-navik-yantrik-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/icg-cgept-recruitment-2026-apply-online-for-365-posts-3071126",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835636Z"
     },
     {
-      "title": "Territorial Army Soldier, JCO – 74 Posts",
+      "title": "Soldier, Junior Commissioned Officer and More     – 74 Posts",
       "organization": "Territorial Army",
       "qualification": "Any Graduate",
       "advt_no": "10622/11/0058/2627",
       "last_date": "21-11-2026",
       "post_date": "10/10/2026",
-      "link": "https://www.freejobalert.com/territorial-army-soldier-jco-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/territorial-army-recruitment-2026-walk-in-for-74-soldier-junior-commissioned-officer-and-more-posts-3072586",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835752Z"
     },
     {
-      "title": "Ordnance Factory Tiruchirappalli Specialist, Hindi Typist – 11 Posts",
+      "title": "Specialist, Hindi Typist and More     – 11 Posts",
       "organization": "Ordnance Factory Tiruchirappalli",
       "qualification": "Any Graduate",
       "advt_no": "7150/R&D Expert/Estt/2026",
       "last_date": "30 Days",
       "post_date": "10/10/2026",
-      "link": "https://www.freejobalert.com/ordnance-factory-tiruchirappalli-specialist-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/oft-recruitment-2026-apply-online-for-11-specialist-hindi-typist-and-more-posts-3072601",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835864Z"
     },
     {
-      "title": "BSF Sub Inspector – 34 Posts",
+      "title": "Sub Inspector     – 34 Posts",
       "organization": "BSF",
       "qualification": "12TH, Diploma",
       "advt_no": "No. 11/63/2026/Med Dte /BSF/7298-7658",
       "last_date": "60 days",
       "post_date": "10/10/2026",
-      "link": "https://www.freejobalert.com/bsf-sub-inspector-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/bsf-sub-inspector-recruitment-2026-apply-offline-for-34-posts-3072599",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.835959Z"
     },
     {
-      "title": "Naval Dockyard Karwar Trade Apprentice – 210 Posts",
+      "title": "Trade Apprentice     – 210 Posts",
       "organization": "Naval Dockyard Karwar",
       "qualification": "ITI, 10TH, 8TH",
       "advt_no": "–",
       "last_date": "08-11-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/naval-dockyard-karwar-trade-apprentice-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/naval-dockyard-karwar-trade-apprentice-recruitment-2026-apply-online-for-210-posts-3072459",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836069Z"
     },
     {
-      "title": "Ordnance Factory Itarsi Graduate Apprentice – 50 Posts",
+      "title": "Graduate Apprentice     – 50 Posts",
       "organization": "Ordnance Factory Itarsi",
       "qualification": "B.A, B.B.A, B.Com, B.Sc, BCA",
       "advt_no": "1104/स्नातक प्रशिक्षु (2025-26)/सा.प्रशा./अनिड",
       "last_date": "29-10-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/ordnance-factory-itarsi-graduate-apprentice-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/ordnance-factory-itarsi-graduate-apprentice-recruitment-2026-apply-offline-for-50-vacancies-3072444",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836178Z"
     },
     {
-      "title": "Naval Dockyard Mumbai Apprentice – 283 Posts",
+      "title": "Apprentice     – 283 Posts",
       "organization": "Naval Dockyard Mumbai",
       "qualification": "ITI",
       "advt_no": "DAS (MBI)/APP/IT-28",
       "last_date": "27-10-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/naval-dockyard-mumbai-apprentice-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/naval-dockyard-mumbai-apprentice-recruitment-2026-apply-online-for-283-posts-3069911",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836280Z"
     },
     {
-      "title": "DRDO GTRE Consultant – 3 Posts",
+      "title": "Consultant     – 3 Posts",
       "organization": "DRDO GTRE",
       "qualification": "Other",
       "advt_no": "DRDO/GTRE/HRD/Consultants/001/2026-27",
       "last_date": "29-10-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/drdo-gtre-consultant-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-gtre-consultant-recruitment-2026-apply-offline-3072227",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836368Z"
     },
     {
-      "title": "ITR DRDO Graduate and Technician Apprentice – 54 Posts",
+      "title": "Graduate and Technician Apprentice     – 54 Posts",
       "organization": "ITR DRDO",
       "qualification": "B.B.A, B.Com, B.Lib, B.Tech/B.E, Diploma",
       "advt_no": "ITR/HRD/AT/11/2026",
       "last_date": "02-11-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/itr-drdo-graduate-technician-apprentice-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-itr-apprentice-recruitment-2026-apply-online-for-54-posts-3072148",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836464Z"
     },
     {
-      "title": "DRDO Junior Research Fellow – 1 Post",
+      "title": "Junior Research Fellow     – 1 Posts",
       "organization": "DRDO",
       "qualification": "M.Sc",
       "advt_no": "CAIR/HRT/JRF/2026/03",
       "last_date": "30-10-2026",
       "post_date": "08/10/2026",
-      "link": "https://www.freejobalert.com/drdo-junior-research-fellow-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-junior-research-fellowship-recruitment-2026-apply-online-3071744",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836598Z"
     },
     {
-      "title": "IOPB Tradesman – 5 Posts",
+      "title": "Tradesman     – 5 Posts",
       "organization": "IOPB",
       "qualification": "ITI, 10TH, 12TH",
       "advt_no": "IOP/Recruit/09/2026",
       "last_date": "10-11-2026",
       "post_date": "07/10/2026",
-      "link": "https://www.freejobalert.com/iopb-tradesman-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/iopb-tradesman-recruitment-2026-apply-offline-3071401",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.836706Z"
     },
     {
-      "title": "KFD Forest Observer – 750 Posts",
+      "title": "Forest Observer     – 750 Posts",
       "organization": "KFD",
       "qualification": "10TH",
       "advt_no": "E-2167379",
       "last_date": "30-10-2026",
       "post_date": "07/10/2026",
-      "link": "https://www.freejobalert.com/kfd-forest-observer-oct26/",
-      "type": "State"
+      "link": "https://www.freejobalert.com/articles/karnataka-forest-department-kfd-forest-observer-recruitment-2026-apply-online-for-750-posts-3071391",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.836812Z"
     },
     {
-      "title": "Sainik School Mainpuri TGT English and Counsellor – 2 Posts",
+      "title": "TGT English and Counsellor     – 2 Posts",
       "organization": "Sainik School Mainpuri",
       "qualification": "Any Graduate, Any Post Graduate, B.Ed",
       "advt_no": "–",
       "last_date": "25-10-2026",
       "post_date": "06/10/2026",
-      "link": "https://www.freejobalert.com/sainik-school-mainpuri-tgt-counsellor-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/sainik-school-mainpuri-recruitment-2026-apply-offline-for-tgt-counsellor-posts-3071250",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.836926Z"
     },
     {
-      "title": "Sainik School Chhingchhip Ward Boys and GE – 5 Posts",
+      "title": "Ward Boys and GE     – 5 Posts",
       "organization": "Sainik School Chhingchhip",
       "qualification": "10TH",
       "advt_no": "–",
       "last_date": "23-10-2026",
       "post_date": "06/10/2026",
-      "link": "https://www.freejobalert.com/sainik-school-chhingchhip-ward-boys-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/sainik-school-chhingchhip-recruitment-2026-apply-offline-for-ward-boys-and-ge-posts-3071178",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837059Z"
     },
     {
-      "title": "DRDO DMRL Junior Research Fellow – 18 Posts",
+      "title": "Junior Research Fellow     – 18 Posts",
       "organization": "DRDO DMRL",
       "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc",
       "advt_no": "DMRL/HRD/JRF/2026/01",
       "last_date": "21 days",
       "post_date": "06/10/2026",
-      "link": "https://www.freejobalert.com/drdo-dmrl-jrf-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-dmrl-junior-research-fellow-recruitment-2026-apply-online-for-18-posts-3071106",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837153Z"
     },
     {
-      "title": "DRDO RCI Apprentice – 195 Posts",
+      "title": "Junior Research Fellow     – 18 Posts",
+      "organization": "DRDO DMRL",
+      "qualification": "B.Tech/B.E, M.E/M.Tech, M.Sc",
+      "advt_no": "DMRL/HRD/JRF/2026/01",
+      "last_date": "21 days",
+      "post_date": "06/10/2026",
+      "link": "https://www.freejobalert.com/articles/drdo-dmrl-junior-research-fellow-recruitment-2026-apply-online-for-18-posts-3071105",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837242Z"
+    },
+    {
+      "title": "Apprentice     – 195 Posts",
       "organization": "DRDO RCI",
       "qualification": "B.Tech/B.E, Diploma, ITI",
       "advt_no": "RCI/HRD/Apprenticeship/Advt/2027",
       "last_date": "01-11-2026",
       "post_date": "03/10/2026",
-      "link": "https://www.freejobalert.com/drdo-rci-apprentice-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/drdo-rci-apprentice-recruitment-2026-apply-online-for-195-posts-3070757",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837329Z"
     },
     {
-      "title": "Indian Army Technical Graduate Course (TGC-145) Officer – 30 Posts",
+      "title": "Technical Graduate Course (TGC-145) Officer     – 30 Posts",
       "organization": "Indian Army",
       "qualification": "B.Tech/B.E",
       "advt_no": "EN 26/97",
       "last_date": "29-10-2026",
       "post_date": "30/09/2026",
-      "link": "https://www.freejobalert.com/indian-army-tgc-145-sep26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/indian-army-tgc-145-recruitment-2026-3068772",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837428Z"
     },
     {
-      "title": "ITBP Head Constable – 21 Posts",
+      "title": "Head Constable     – 21 Posts",
       "organization": "ITBP",
       "qualification": "12TH",
       "advt_no": "–",
       "last_date": "27-10-2026",
       "post_date": "28/09/2026",
-      "link": "https://www.freejobalert.com/itbp-head-constable-sep26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/itbp-head-constable-motor-mechanic-recruitment-2026-apply-online-for-21-posts-3068550",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837542Z"
     },
     {
-      "title": "ITBP Head Constable (Education & Stress Counsellor) – 16 Posts",
+      "title": "Head Constable (Education & Stress Counsellor)     – 16 Posts",
       "organization": "ITBP",
       "qualification": "B.A, B.Ed, B.Sc",
       "advt_no": "–",
       "last_date": "27-10-2026",
       "post_date": "28/09/2026",
-      "link": "https://www.freejobalert.com/itbp-head-constable-education-sep26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/itbp-head-constable-education-and-stress-counsellor-recruitment-2026-apply-online-for-16-posts-3068874",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837645Z"
     },
     {
-      "title": "Indian Coast Guard Chowkidar, Peon – 06 Posts",
+      "title": "Chowkidar, Peon and More     – 06 Posts",
       "organization": "Indian Coast Guard",
       "qualification": "12TH, 10TH",
       "advt_no": "–",
       "last_date": "03-11-2026",
       "post_date": "23/09/2026",
-      "link": "https://www.freejobalert.com/indian-coast-guard-chowkidar-peon-sep26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/indian-coast-guard-recruitment-2026-apply-offline-for-06-chowkidar-peon-and-more-posts-3069109",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.837752Z"
     },
     {
-      "title": "Army Public School Sukna TGT, PRT, Vice Principal – 8 Posts",
+      "title": "TGT, PRT, Vice Principal and More     – 8 Posts",
       "organization": "Army Public School Sukna",
       "qualification": "Any Graduate, B.Ed, B.Tech/B.E, BCA, M.Ed, PG Diploma",
       "advt_no": "–",
       "last_date": "28-10-2026",
       "post_date": "22/09/2026",
-      "link": "https://www.freejobalert.com/army-public-school-sukna-tgt-prt-sep26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/army-public-school-sukna-recruitment-2026-apply-offline-for-tgt-prt-vice-principal-and-more-posts-3068788",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.837867Z"
     },
     {
-      "title": "National CAMPA Assistant Inspector General of Forests – 2 Posts",
+      "title": "Constable     – 1137 Posts",
+      "organization": "Nagaland Police",
+      "qualification": "8TH, 6th",
+      "advt_no": "–",
+      "last_date": "30-11-2026",
+      "post_date": "16/10/2026",
+      "link": "https://www.freejobalert.com/articles/nagaland-police-constable-recruitment-2026-3074062",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838091Z"
+    },
+    {
+      "title": "Assistant Inspector General of Forests     – 2 Posts",
       "organization": "National CAMPA",
       "qualification": "Any Graduate",
       "advt_no": "NA.2-1/2022-NA",
       "last_date": "25-11-2026",
       "post_date": "16/10/2026",
-      "link": "https://www.freejobalert.com/national-campa-aigf-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/national-campa-assistant-inspector-general-of-forests-recruitment-2026-apply-online-3074012",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838205Z"
     },
     {
-      "title": "APPSC Assistant Motor Vehicle Inspector, Lab Assistant – 106 Posts",
+      "title": "Constable (Driver)     – 1000 Posts",
+      "organization": "MP Police",
+      "qualification": "10TH",
+      "advt_no": "पुमु/2/चयन/स-3/591/2026",
+      "last_date": "29-10-2026",
+      "post_date": "15/10/2026",
+      "link": "https://www.freejobalert.com/articles/mp-police-constable-driver-recruitment-2026-apply-online-for-1000-posts-3071517",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838314Z"
+    },
+    {
+      "title": "Assistant Motor Vehicle Inspector, Lab Assistant and More     – 106 Posts",
       "organization": "APPSC",
       "qualification": "B.Sc, B.Tech/B.E, Diploma",
       "advt_no": "36/2026, 31/2026, 35/2026",
       "last_date": "26-11-2026",
       "post_date": "14/10/2026",
-      "link": "https://www.freejobalert.com/appsc-amvi-lab-assistant-oct26/",
-      "type": "State"
+      "link": "https://www.freejobalert.com/articles/appsc-recruitment-2026-apply-online-for-106-assistant-motor-vehicle-inspector-lab-assistant-and-more-posts-3073362",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838432Z"
     },
     {
-      "title": "WCCB Driver, Head Constable – 12 Posts",
+      "title": "Driver, Head Constable and More     – 12 Posts",
       "organization": "WCCB",
       "qualification": "Any Graduate",
       "advt_no": "–",
       "last_date": "31-10-2026",
       "post_date": "10/10/2026",
-      "link": "https://www.freejobalert.com/wccb-driver-hc-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/wccb-recruitment-2026-apply-online-for-12-driver-head-constable-and-more-posts-3072591",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838579Z"
     },
     {
-      "title": "Police Commissionerate Bhubaneswar Kataka Special Police Officer – 81 Posts",
+      "title": "Special Police Officer     – 81 Posts",
       "organization": "Police Commissionerate Bhubaneswar Kataka",
       "qualification": "Retired Staff",
-      "advt_no": "01/2026/HA",
+      "advt_no": "–",
       "last_date": "22-10-2026",
       "post_date": "10/10/2026",
-      "link": "https://www.freejobalert.com/bhubaneswar-police-spo-oct26/",
-      "type": "State"
+      "link": "https://www.freejobalert.com/articles/police-commissionerate-bhubaneswar-kataka-spo-recruitment-2026-apply-offline-for-81-posts-3072500",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838708Z"
     },
     {
-      "title": "ISRO IPRC Fireman, Technician – 22 Posts",
+      "title": "Fireman, Technician and More     – 22 Posts",
       "organization": "ISRO IPRC",
       "qualification": "Diploma, ITI, 10TH",
       "advt_no": "IPRC/PRC/Bharti/RMT/2026/01",
       "last_date": "24-10-2026",
       "post_date": "09/10/2026",
-      "link": "https://www.freejobalert.com/isro-iprc-fireman-technician-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/isro-iprc-recruitment-2026-apply-online-for-22-technical-assistant-technician-and-skilled-posts-3067463",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.838806Z"
     },
     {
-      "title": "WB Police Driver – 5 Posts",
+      "title": "Driver     – 5 Posts",
       "organization": "WB Police",
       "qualification": "8TH",
       "advt_no": "01/2026/HA",
       "last_date": "21-10-2026",
       "post_date": "08/10/2026",
-      "link": "https://www.freejobalert.com/wb-police-driver-oct26/",
-      "type": "State"
+      "link": "https://www.freejobalert.com/articles/wb-police-driver-recruitment-2026-apply-offline-for-5-posts-3072060",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.838904Z"
     },
     {
-      "title": "AWEIL Fitter, Machinist – 40 Posts",
+      "title": "Fitter, Machinist and More     – 40 Posts",
       "organization": "AWEIL",
       "qualification": "ITI",
       "advt_no": "01/Hiring-GSF/AWTM/2026-27",
       "last_date": "02-11-2026",
       "post_date": "08/10/2026",
-      "link": "https://www.freejobalert.com/aweil-fitter-machinist-oct26/",
-      "type": "Central"
+      "link": "https://www.freejobalert.com/articles/aweil-recruitment-2026-apply-offline-for-40-mechanical-fitter-electrical-fitter-and-more-posts-3071803",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839009Z"
     },
     {
-      "title": "Odisha Police Special Police Officer – 89 Posts",
+      "title": "Special Police Officer     – 89 Posts",
       "organization": "Odisha Police",
       "qualification": "Any Graduate, Retired Staff",
       "advt_no": "–",
       "last_date": "31-10-2026",
       "post_date": "07/10/2026",
-      "link": "https://www.freejobalert.com/odisha-police-spo-oct26/",
-      "type": "State"
+      "link": "https://www.freejobalert.com/articles/odisha-police-special-police-officer-recruitment-2026-apply-offline-for-89-posts-3071553",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839115Z"
+    },
+    {
+      "title": "Visiting Medical Consultant and Health Inspector     – 3 Posts",
+      "organization": "RGNAU",
+      "qualification": "MS/MD, DNB, Diploma",
+      "advt_no": "RGNAU/5132/03/ADMIN/517",
+      "last_date": "06-11-2026",
+      "post_date": "26/09/2026",
+      "link": "https://www.freejobalert.com/articles/rgnau-recruitment-2026-apply-online-for-visiting-medical-consultant-and-health-inspector-posts-3069703",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839226Z"
+    },
+    {
+      "title": "Short Service Commissioned Officer     – 37 Posts",
+      "organization": "Army Dental Corps",
+      "qualification": "BDS, Master of Dental Surgery",
+      "advt_no": "CBC 10601/11/0027/2627",
+      "last_date": "22-10-2026",
+      "post_date": "22/09/2026",
+      "link": "https://www.freejobalert.com/articles/army-dental-corps-short-service-commissioned-officer-recruitment-2026-apply-online-for-37-posts-3067635",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839337Z"
+    },
+    {
+      "title": "Home Guard     – 772 Posts",
+      "organization": "Jharkhand Home Defense Corps",
+      "qualification": "10TH, 7th",
+      "advt_no": "01/2026",
+      "last_date": "26-10-2026",
+      "post_date": "12/09/2026",
+      "link": "https://www.freejobalert.com/articles/jharkhand-home-guard-recruitment-2026-apply-online-for-772-home-guard-rural-and-urban-posts-3067607",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839442Z"
+    },
+    {
+      "title": "Assistant, Assistant Communication Officer     – 61 Posts",
+      "organization": "DCPW",
+      "qualification": "Other",
+      "advt_no": "–",
+      "last_date": "10-11-2026",
+      "post_date": "11/09/2026",
+      "link": "https://www.freejobalert.com/articles/dcpw-recruitment-2026-apply-offline-for-61-assistant-assistant-communication-officer-posts-3067486",
+      "type": "Central",
+      "scraped_at": "2026-10-19T22:24:18.839564Z"
+    },
+    {
+      "title": "Visiting Medical Consultant, Visiting Health Inspector     – 3 Posts",
+      "organization": "RGNAU",
+      "qualification": "MS/MD, DNB, Diploma",
+      "advt_no": "RGNAU/5132/03/ADMIN/517",
+      "last_date": "06-11-2026",
+      "post_date": "09/09/2026",
+      "link": "https://www.freejobalert.com/articles/rgnau-recruitment-2026-apply-online-for-visiting-medical-consultant-visiting-health-inspector-posts-3066974",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839681Z"
+    },
+    {
+      "title": "Lokrakshak Cadre     – 3,000",
+      "organization": "GPRB",
+      "qualification": "12TH",
+      "advt_no": "–",
+      "last_date": "31-10-2026",
+      "post_date": "29/08/2026",
+      "link": "https://www.freejobalert.com/articles/gujarat-police-lokrakshak-cadre-recruitment-2026-apply-online-for-3000-posts-3065349",
+      "type": "State",
+      "scraped_at": "2026-10-19T22:24:18.839778Z"
     }
   ]
 }
