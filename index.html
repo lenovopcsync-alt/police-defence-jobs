@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Police & Defence Jobs — FreeJobAlert</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --navy: #1b2a4a;
+  --navy-light: #253d6b;
+  --gold: #c9a227;
+  --bg: #f7f9fc;
+  --card: #ffffff;
+  --text: #2d3748;
+  --text-muted: #6b7b8c;
+  --border: #e4ebf1;
+  --shadow: 0 2px 8px rgba(27,42,74,.06);
+  --shadow-hover: 0 6px 16px rgba(27,42,74,.1);
+  --radius: 12px;
+  --transition: .2s ease;
+  --font-ui: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --navy: #4a90d9;
+    --navy-light: #6ba8e0;
+    --gold: #e8c56d;
+    --bg: #1a202c;
+    --card: #232b3a;
+    --text: #e2e8f0;
+    --text-muted: #a0aec0;
+    --border: #2d3748;
+  }
+}
+html { font-size: 16px; }
+body { font-family: var(--font-ui); background: var(--bg); color: var(--text); min-height: 100vh; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; }
+header { background: var(--navy); color: #fff; padding: 20px 16px; text-align: center; box-shadow: var(--shadow); }
+header h1 { font-size: clamp(1.4rem, 4vw, 1.8rem); font-weight: 700; letter-spacing: -0.01em; margin-bottom: 6px; }
+header p { font-size: .95rem; opacity: .85; font-weight: 400; font-family: var(--font-ui); }
+header .updated { font-size: .75rem; opacity: .7; margin-top: 6px; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+
+/* Stats bar */
+.stats { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; padding: 16px; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); }
+.stat { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.stat .num { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; color: var(--navy); font-variant-numeric: tabular-nums; line-height: 1; }
+.stat .label { font-size: .65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .08em; font-weight: 500; }
+
+/* Filters */
+.filters { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; }
+.filters select { padding: 12px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--text); font-family: var(--font-ui); font-size: .85rem; font-weight: 500; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7b8c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 40px; transition: border-color var(--transition), box-shadow var(--transition); }
+@media (prefers-color-scheme: dark) {
+  .filters select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a0aec0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); }
+}
+.filters select:focus { outline: none; border-color: var(--navy); box-shadow: 0 0 0 3px rgba(27,42,74,.15); }
+
+/* Table */
+.table-wrapper { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); overflow: hidden; }
+.table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { width: 100%; border-collapse: collapse; min-width: 700px; }
+thead { background: var(--navy); color: #fff; position: sticky; top: 0; }
+th { padding: 14px 12px; text-align: left; font-family: var(--font-ui); font-size: .65rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; white-space: nowrap; }
+td { padding: 14px 12px; border-bottom: 1px solid var(--border); font-size: .88rem; vertical-align: top; font-family: var(--font-ui); }
+tr:last-child td { border-bottom: none; }
+tbody tr { transition: background var(--transition), box-shadow var(--transition); }
+tbody tr:hover { background: #f0f5fb; box-shadow: inset 4px 0 0 var(--gold); }
+@media (prefers-color-scheme: dark) { tbody tr:hover { background: rgba(74,144,217,.08); } }
+.post-title { font-family: var(--font-display); color: var(--navy); text-decoration: none; font-weight: 600; font-size: .95rem; transition: color var(--transition); display: block; margin-bottom: 6px; letter-spacing: -0.01em; }
+.post-title:hover { color: var(--gold); }
+.meta { display: flex; flex-wrap: wrap; gap: 12px; font-size: .72rem; color: var(--text-muted); font-family: var(--font-ui); }
+.meta span { display: flex; align-items: center; gap: 4px; }
+.meta strong { color: var(--text); font-weight: 600; font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: .7rem; }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 100px; font-family: var(--font-ui); font-size: .62rem; font-weight: 600; letter-spacing: .04em; background: #fff3e0; color: #c2410c; }
+.btn-action { display: inline-block; margin-top: 8px; padding: 10px 18px; background: var(--navy); color: #fff; border-radius: 8px; font-family: var(--font-ui); font-size: .8rem; font-weight: 600; text-decoration: none; transition: all var(--transition); letter-spacing: .01em; }
+.btn-action:hover { background: var(--navy-light); transform: translateY(-1px); box-shadow: var(--shadow-hover); }
+
+/* Empty / Loading */
+.empty-state, .loading-row { text-align: center; padding: 60px 20px; color: var(--text-muted); font-family: var(--font-ui); }
+.empty-state svg { width: 64px; height: 64px; margin-bottom: 16px; opacity: .4; }
+.empty-state p { font-family: var(--font-display); font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+.empty-state span { font-size: .8rem; }
+.spinner { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--navy); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 12px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Footer */
+footer { text-align: center; padding: 30px 16px; color: var(--text-muted); font-size: .75rem; border-top: 1px solid var(--border); margin-top: 40px; font-family: var(--font-ui); }
+footer a { color: var(--navy); text-decoration: none; font-weight: 500; }
+footer a:hover { text-decoration: underline; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-wrapper { display: none; }
+  .cards-container { display: block; }
+}
+@media (min-width: 769px) {
+  .cards-container { display: none; }
+}
+
+/* Mobile Cards */
+.cards-container { display: flex; flex-direction: column; gap: 12px; }
+.job-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; transition: box-shadow var(--transition), transform var(--transition); }
+.job-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.job-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+.job-card-title { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--navy); text-decoration: none; line-height: 1.3; flex: 1; min-width: 0; }
+.job-card-title:hover { color: var(--gold); }
+.job-card-type { flex-shrink: 0; }
+.job-card-meta { display: flex; flex-direction: column; gap: 8px; font-size: .82rem; color: var(--text-muted); }
+.job-card-row { display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
+.job-card-label { font-weight: 600; color: var(--text); font-family: var(--font-mono); font-size: .7rem; font-variant-numeric: tabular-nums; min-width: 80px; }
+.job-card-value { color: var(--text-muted); flex: 1; min-width: 0; }
+.job-card-qual { background: var(--bg); padding: 10px 12px; border-radius: 8px; font-size: .8rem; line-height: 1.4; }
+.job-card-qual strong { color: var(--text); }
+.job-card-actions { display: flex; justify-content: flex-end; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+@media (max-width: 480px) {
+  .job-card { padding: 14px; }
+  .job-card-title { font-size: .95rem; }
+  .job-card-label { min-width: 70px; font-size: .65rem; }
+}
+
+/* Splash Screen */
+#splash {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg, var(--navy) 0%, #2d4a7a 50%, #1a2a4a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+  overflow: hidden;
+}
+#splash.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.splash-content {
+  text-align: center;
+  color: #fff;
+  padding: 24px;
+  max-width: 400px;
+  animation: splashFadeIn 1s ease-out;
+}
+@keyframes splashFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.splash-heart {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+.splash-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+.splash-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+  font-weight: 400;
+  color: var(--gold);
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+.splash-message {
+  font-family: var(--font-ui);
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
+  line-height: 1.7;
+  opacity: 0.95;
+  margin-bottom: 24px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.splash-divider {
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+  margin: 16px auto;
+  border-radius: 1px;
+}
+.splash-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: .85rem;
+  opacity: 0.7;
+  font-family: var(--font-mono);
+}
+.splash-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255,255,255,.3);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash" role="dialog" aria-label="Loading">
+  <div class="splash-content">
+    <svg class="splash-heart" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+    </svg>
+    <h1 class="splash-title">Built with Love</h1>
+    <div class="splash-name">For Hena ❤️</div>
+    <div class="splash-divider"></div>
+    <p class="splash-message">Every line of code, every late night, every filter and card —<br>made thinking of you. May this help you find the path you deserve.</p>
+    <div class="splash-divider"></div>
+    <div class="splash-loading">
+      <div class="splash-spinner"></div>
+      <span>Loading your career portal...</span>
+    </div>
+    <button id="enterBtn" class="splash-enter-btn" style="display:none;margin-top:20px;padding:14px 32px;font-family:var(--font-display);font-size:1rem;font-weight:600;background:var(--gold);color:var(--navy);border:none;border-radius:100px;cursor:pointer;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 12px rgba(201,162,39,.4);">Enter Portal →</button>
+  </div>
+</div>
+
+<header>
+  <h1>🛡️ Police & Defence Jobs</h1>
+  <p>Latest recruitment notifications from FreeJobAlert — Comprehensive data, updated daily</p>
+  <div class="updated" id="lastUpdated"></div>
+</header>
+
+<div class="container">
+  <div class="stats">
+    <div class="stat"><span class="num" id="totalCount">0</span><span class="label">Total Jobs</span></div>
+    <div class="stat"><span class="num" id="centralCount">0</span><span class="label">Central</span></div>
+    <div class="stat"><span class="num" id="stateCount">0</span><span class="label">State</span></div>
+  </div>
+
+  <div class="filters">
+    <select id="typeFilter">
+      <option value="">All Types</option>
+      <option value="Central">Central Government</option>
+      <option value="State">State Government</option>
+    </select>
+    <select id="orgFilter">
+      <option value="">All Organizations</option>
+    </select>
+  </div>
+
+  <div class="table-wrapper">
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Post</th>
+            <th>Organization</th>
+            <th>Type</th>
+            <th>Qualification</th>
+            <th>Last Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="jobsBody">
+          <tr class="loading-row"><td colspan="6"><div class="spinner"></div>Loading jobs from local data...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Mobile Cards -->
+  <div class="cards-container" id="cardsContainer">
+    <div class="loading-row"><div class="spinner"></div>Loading jobs from local data...</div>
+  </div>
+</div>
+
+<footer>
+  Data sourced from <a href="https://www.freejobalert.com/police-defence-jobs/" target="_blank">FreeJobAlert Police/Defence Jobs</a> via automated daily scrape (GitHub Actions). 
+  Verify details on official recruitment websites before applying. 
+  &copy; 2026 Police & Defence Jobs Portal
+</footer>
+
+<script>
+// Load jobs from local JSON (generated by GitHub Action daily)
+let allJobs = [];
+
+async function loadJobs() {
+  try {
+    console.log('Fetching jobs...');
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000); // 8 second timeout
+    
+    const resp = await fetch('police_defence_jobs.json?v=' + Date.now(), { signal: controller.signal });
+    clearTimeout(timeoutId);
+    
+    console.log('Response status:', resp.status);
+    if (!resp.ok) throw new Error('Failed to load: ' + resp.status);
+    const data = await resp.json();
+    console.log('Jobs loaded:', data.jobs?.length || 0);
+    allJobs = data.jobs || [];
+    
+    // Update last updated
+    if (data.scraped_at) {
+      const dt = new Date(data.scraped_at);
+      document.getElementById('lastUpdated').textContent = 
+        'Last updated: ' + dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' UTC';
+    }
+    
+    populateOrgFilter();
+    renderJobs(allJobs);
+  } catch (err) {
+    console.error('Load error:', err);
+    const errorHTML = "<div style='color:#c62828;padding:20px;text-align:center;'>Failed to load local data. <button onclick='loadJobs()' style='margin-left:8px;padding:6px 12px;background:var(--navy);color:#fff;border:none;border-radius:6px;cursor:pointer;'>Retry</button></div>";
+    document.getElementById('jobsBody').innerHTML = `<tr class="loading-row"><td colspan="6">${errorHTML}</td></tr>`;
+    document.getElementById('cardsContainer').innerHTML = errorHTML;
+    showEnterButton(); // Still show button even on error
+  }
+}
+
+function populateOrgFilter() {
+  const orgs = [...new Set(allJobs.map(j => j.organization).filter(Boolean))].sort();
+  const select = document.getElementById('orgFilter');
+  orgs.forEach(o => {
+    const opt = document.createElement('option');
+    opt.value = o;
+    opt.textContent = o;
+    select.appendChild(opt);
+  });
+}
+
+function renderJobs(jobs) {
+  const tbody = document.getElementById('jobsBody');
+  const cardsContainer = document.getElementById('cardsContainer');
+  tbody.innerHTML = '';
+  cardsContainer.innerHTML = '';
+  
+  if (jobs.length === 0) {
+    const emptyHTML = `<div class="empty-state"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg><p>No matching jobs</p><span>Adjust filters</span></div>`;
+    tbody.innerHTML = `<tr class="empty-state"><td colspan="6">${emptyHTML}</td></tr>`;
+    cardsContainer.innerHTML = emptyHTML;
+    return;
+  }
+  
+  jobs.forEach(j => {
+    // Table row
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>
+        <a href="${j.link}" target="_blank" class="post-title">${j.title}</a>
+        <div class="meta">
+          <span><strong>Posted:</strong> ${j.post_date || 'N/A'}</span>
+          <span><strong>Last Date:</strong> ${j.last_date || 'Check notification'}</span>
+          ${j.advt_no && j.advt_no !== '–' ? `<span><strong>Advt:</strong> ${j.advt_no}</span>` : ''}
+        </div>
+      </td>
+      <td>${j.organization}</td>
+      <td><span class="badge">${j.type}</span></td>
+      <td style="max-width:200px;">${j.qualification || 'See notification'}</td>
+      <td style="font-weight:600;color:var(--navy);">${j.last_date || 'Check notification'}</td>
+      <td><a href="${j.link}" target="_blank" class="btn-action">${j.link ? 'View Details' : 'No Link'}</a></td>
+    `;
+    tbody.appendChild(tr);
+    
+    // Mobile card
+    const card = document.createElement('div');
+    card.className = 'job-card';
+    card.innerHTML = `
+      <div class="job-card-header">
+        <a href="${j.link}" target="_blank" class="job-card-title">${j.title}</a>
+        <span class="job-card-type badge">${j.type}</span>
+      </div>
+      <div class="job-card-meta">
+        <div class="job-card-row"><span class="job-card-label">Organization</span><span class="job-card-value">${j.organization}</span></div>
+        <div class="job-card-row"><span class="job-card-label">Posted</span><span class="job-card-value">${j.post_date || 'N/A'}</span></div>
+        <div class="job-card-row"><span class="job-card-label">Last Date</span><span class="job-card-value" style="font-weight:600;color:var(--navy);">${j.last_date || 'Check notification'}</span></div>
+        ${j.advt_no && j.advt_no !== '–' ? `<div class="job-card-row"><span class="job-card-label">Advt No</span><span class="job-card-value">${j.advt_no}</span></div>` : ''}
+      </div>
+      <div class="job-card-qual"><strong>Qualification:</strong> ${j.qualification || 'See notification'}</div>
+      <div class="job-card-actions">
+        <a href="${j.link}" target="_blank" class="btn-action">${j.link ? 'View Details' : 'No Link'}</a>
+      </div>
+    `;
+    cardsContainer.appendChild(card);
+  });
+  
+  const central = jobs.filter(j => j.type === 'Central').length;
+  const state = jobs.filter(j => j.type === 'State').length;
+  document.getElementById('totalCount').textContent = jobs.length;
+  document.getElementById('centralCount').textContent = central;
+  document.getElementById('stateCount').textContent = state;
+}
+
+// Filter handlers
+document.getElementById('typeFilter').addEventListener('change', applyFilters);
+document.getElementById('orgFilter').addEventListener('change', applyFilters);
+
+function applyFilters() {
+  const fType = document.getElementById('typeFilter').value;
+  const fOrg = document.getElementById('orgFilter').value;
+  
+  let filtered = allJobs.filter(j => {
+    if (fType && j.type !== fType) return false;
+    if (fOrg && j.organization !== fOrg) return false;
+    return true;
+  });
+  
+  // Sort by post date descending
+  filtered.sort((a, b) => {
+    const da = a.post_date ? new Date(a.post_date.split('/').reverse().join('-')) : 0;
+    const db = b.post_date ? new Date(b.post_date.split('/').reverse().join('-')) : 0;
+    return db - da;
+  });
+  
+  renderJobs(filtered);
+}
+
+// Initial load - start immediately, don't wait for splash
+loadJobs();
+
+// Splash screen logic - show button after short delay, independent of data load
+let splashDismissed = false;
+
+function hideSplash() {
+  if (splashDismissed) return;
+  splashDismissed = true;
+  const splash = document.getElementById('splash');
+  if (splash) {
+    splash.classList.add('hidden');
+    setTimeout(() => splash.style.display = 'none', 800);
+  }
+}
+
+function showEnterButton() {
+  const btn = document.getElementById('enterBtn');
+  if (btn && btn.style.display === 'none') {
+    btn.style.display = 'inline-block';
+    btn.style.animation = 'fadeInUp 0.6s ease-out';
+  }
+}
+
+// Show enter button after 1.5 seconds (feels fast, not agitating)
+setTimeout(showEnterButton, 1500);
+
+// Enter button click handler
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('enterBtn');
+  if (btn) {
+    btn.addEventListener('click', hideSplash);
+  }
+});
+</script>
+</body>
+</html>
