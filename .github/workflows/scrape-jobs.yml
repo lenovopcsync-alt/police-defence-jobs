@@ -1,9 +1,9 @@
-name: Scrape Police Defence Jobs (Free - No AI)
+name: Scrape Police Defence Jobs
 
 on:
   schedule:
-    - cron: '30 23 * * *'  # Daily at 23:30 UTC = 5:00 AM IST
-  workflow_dispatch:      # Manual trigger
+    - cron: '30 23 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,136 +12,69 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+      - run: pip install requests beautifulsoup4 lxml
 
-      - name: Scrape FreeJobAlert Police/Defence
+      - name: Scrape
         run: |
           python << 'EOF'
-          import requests
+          import requests, json, re, sys
           from bs4 import BeautifulSoup
-          import json
-          import re
           from datetime import datetime
-          import sys
 
           URL = "https://www.freejobalert.com/police-defence-jobs/"
-          HEADERS = {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          }
+          HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
           def scrape():
-              resp = requests.get(URL, headers=HEADERS, timeout=30)
-              resp.raise_for_status()
-              soup = BeautifulSoup(resp.text, 'lxml')
-              
+              r = requests.get(URL, headers=HEADERS, timeout=30)
+              r.raise_for_status()
+              soup = BeautifulSoup(r.text, 'lxml')
               jobs = []
-              
-              tables = soup.find_all('table')
-              for table in tables:
-                  rows = table.find_all('tr')
-                  for row in rows:
-                      cols = row.find_all(['td', 'th'])
-                      if len(cols) < 5:
+              for table in soup.find_all('table'):
+                  for row in table.find_all('tr'):
+                      cols = row.find_all(['td','th'])
+                      if len(cols) < 5: continue
+                      txt = [c.get_text(strip=True) for c in cols]
+                      if any(h in ' '.join(txt).lower() for h in ['post date','recruitment board','exam / post name','qualification','advt no','last date']):
                           continue
-                      
-                      col_texts = [c.get_text(strip=True) for c in cols]
-                      
-                      header_text = ' '.join(col_texts).lower()
-                      if any(h in header_text for h in ['post date', 'recruitment board', 'exam / post name', 'qualification', 'advt no', 'last date']):
-                          continue
-                      
-                      if len(col_texts) >= 6:
-                          post_date = col_texts[0]
-                          org = col_texts[1]
-                          title = col_texts[2]
-                          qualification = col_texts[3]
-                          advt_no = col_texts[4]
-                          last_date = col_texts[5]
-                          
+                      if len(txt) >= 6:
+                          pd, org, title, qual, advt, ld = txt[:6]
                           link = ''
-                          link_tag = row.find('a', href=True)
-                          if link_tag:
-                              link = link_tag['href']
-                              if not link.startswith('http'):
-                                  link = 'https://www.freejobalert.com' + link
-                          
-                          central_keywords = [
-                              'upsc', 'ssc', 'rrb', 'ibps', 'rbi', 'sbi', 'ntpc', 'bhel', 'gail', 'iocl', 'ongc', 
-                              'sail', 'coal india', 'drdo', 'isro', 'csir', 'icmr', 'uidai', 'cdac', 'nvs', 'kvs', 
-                              'ctet', 'neet', 'jee', 'gate', 'cat', 'airports authority', 'port trust', 
-                              'central government', 'government of india', 'ministry of', 'department of',
-                              'indian army', 'indian navy', 'indian air force', 'bsf', 'crpf', 'cisf', 'itbp', 
-                              'ssb', 'assam rifles', 'capf', 'coast guard', 'territorial army', 
-                              'ordnance factory', 'naval dockyard', 'drde', 'dmrl', 'lrde', 'rci', 'gtre', 'cair',
-                              'sainik school', 'military school', 'rashtriya military', 'army public school'
-                          ]
-                          text = (title + ' ' + org).lower()
-                          job_type = 'Central' if any(k in text for k in central_keywords) else 'State'
-                          
-                          jobs.append({
-                              'title': title,
-                              'organization': org,
-                              'qualification': qualification,
-                              'advt_no': advt_no,
-                              'last_date': last_date,
-                              'post_date': post_date,
-                              'link': link,
-                              'type': job_type,
-                              'scraped_at': datetime.utcnow().isoformat() + 'Z'
-                          })
-              
+                          a = row.find('a', href=True)
+                          if a:
+                              link = a['href']
+                              if not link.startswith('http'): link = 'https://www.freejobalert.com' + link
+                          central = any(k in (title+' '+org).lower() for k in ['upsc','ssc','rrb','ibps','rbi','sbi','ntpc','bhel','gail','iocl','ongc','sail','coal india','drdo','isro','csir','icmr','uidai','cdac','nvs','kvs','ctet','neet','jee','gate','cat','indian army','indian navy','indian air force','bsf','crpf','cisf','itbp','ssb','assam rifles','capf','coast guard','territorial army','ordnance factory','naval dockyard','drde','dmrl','lrde','rci','gtre','cair','sainik school'])
+                          jobs.append({'title':title,'organization':org,'qualification':qual,'advt_no':advt,'last_date':ld,'post_date':pd,'link':link,'type':'Central' if central else 'State','scraped_at':datetime.utcnow().isoformat()+'Z'})
               return jobs
 
           try:
               jobs = scrape()
-              print(f"Scraped {len(jobs)} jobs")
-              
-              seen = set()
-              unique_jobs = []
-              for job in jobs:
-                  link = job.get('link', '')
-                  key = link or job.get('title', '') + job.get('organization', '')
-                  if key and key not in seen:
-                      seen.add(key)
-                      unique_jobs.append(job)
-              
-              output = {
-                  'source': 'FreeJobAlert Police/Defence Jobs',
-                  'url': URL,
-                  'scraped_at': datetime.utcnow().isoformat() + 'Z',
-                  'count': len(unique_jobs),
-                  'jobs': unique_jobs
-              }
-              
-              with open('police_defence_jobs.json', 'w', encoding='utf-8') as f:
-                  json.dump(output, f, ensure_ascii=False, indent=2)
-              
-              print(f"Saved {len(unique_jobs)} unique jobs to police_defence_jobs.json")
+              seen, uniq = set(), []
+              for j in jobs:
+                  k = j.get('link') or j['title']+j['organization']
+                  if k not in seen:
+                      seen.add(k); uniq.append(j)
+              with open('police_defence_jobs.json','w',encoding='utf-8') as f:
+                  json.dump({'source':'FreeJobAlert Police/Defence Jobs','url':URL,'scraped_at':datetime.utcnow().isoformat()+'Z','count':len(uniq),'jobs':uniq},f,ensure_ascii=False,indent=2)
+              print(f"Saved {len(uniq)} jobs")
           except Exception as e:
-              print(f"Error: {e}")
-              sys.exit(1)
+              print(f"Error: {e}"); sys.exit(1)
           EOF
 
-      - name: Commit and push if changed
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add police_defence_jobs.json
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update police/defence jobs data ($(date -u +'%Y-%m-%d'))"
+            git commit -m "chore: update jobs $(date -u +%Y-%m-%d)"
             git push
-          else
-            echo "No changes to commit"
           fi
