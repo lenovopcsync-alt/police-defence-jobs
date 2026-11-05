@@ -1,9 +1,20 @@
 {
   "source": "FreeJobAlert Police/Defence Jobs",
   "url": "https://www.freejobalert.com/police-defence-jobs/",
-  "scraped_at": "2026-11-04T03:04:19.238329Z",
-  "count": 55,
+  "scraped_at": "2026-11-05T03:34:48.844624Z",
+  "count": 54,
   "jobs": [
+    {
+      "title": "Part-time General Duty Assistant (female)     – 1 Posts",
+      "organization": "DIAT",
+      "qualification": "Other",
+      "advt_no": "DIAT/02/GDA",
+      "last_date": "12-11-2026",
+      "post_date": "04/11/2026",
+      "link": "https://www.freejobalert.com/articles/diat-part-time-general-duty-assistant-female-recruitment-2026-3078438",
+      "type": "State",
+      "scraped_at": "2026-11-05T03:34:48.837671Z"
+    },
     {
       "title": "Tradesman, Demonstrator and More     – 3 Posts",
       "organization": "College of Engineering Chengannur",
@@ -13,7 +24,7 @@
       "post_date": "03/11/2026",
       "link": "https://www.freejobalert.com/articles/college-of-engineering-chengannur-recruitment-2026-walkin-for-tradesman-demonstrator-and-more-posts-3078175",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.233912Z"
+      "scraped_at": "2026-11-05T03:34:48.837814Z"
     },
     {
       "title": "Officer-In-Charge     – 1 Posts",
@@ -24,7 +35,7 @@
       "post_date": "03/11/2026",
       "link": "https://www.freejobalert.com/articles/echs-officer-in-charge-recruitment-2026-3077984",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.233993Z"
+      "scraped_at": "2026-11-05T03:34:48.837925Z"
     },
     {
       "title": "Commissioned Officers in Flying and Ground Duty (Technical and Non-Technical) Branches     – 3 Posts",
@@ -35,7 +46,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/afcat-01-2027-notification-3077773",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234082Z"
+      "scraped_at": "2026-11-05T03:34:48.838061Z"
     },
     {
       "title": "Sports Quota     – 521 Posts",
@@ -46,7 +57,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/crpf-sports-quota-recruitment-2026-apply-online-for-521-head-constable-constable-posts-3068927",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.234172Z"
+      "scraped_at": "2026-11-05T03:34:48.838198Z"
     },
     {
       "title": "Commissioned Officer     – 90 Posts",
@@ -57,7 +68,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/indian-army-tes-57-recruitment-2026-apply-online-for-10-2-technical-entry-scheme-3071328",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.234236Z"
+      "scraped_at": "2026-11-05T03:34:48.838303Z"
     },
     {
       "title": "Principal     – 1 Posts",
@@ -68,7 +79,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/aps-kamptee-principal-recruitment-2026-3077526",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234303Z"
+      "scraped_at": "2026-11-05T03:34:48.838413Z"
     },
     {
       "title": "Hindi Typist     – 1 Posts",
@@ -79,7 +90,7 @@
       "post_date": "27/10/2026",
       "link": "https://www.freejobalert.com/articles/indian-air-force-hindi-typist-recruitment-2026-3074995",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234364Z"
+      "scraped_at": "2026-11-05T03:34:48.838516Z"
     },
     {
       "title": "Technician/B (Animal House Attendant)     – 2 Posts",
@@ -90,7 +101,7 @@
       "post_date": "27/10/2026",
       "link": "https://www.freejobalert.com/articles/barc-technician-b-animal-house-attendant-recruitment-2026-3076090",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234434Z"
+      "scraped_at": "2026-11-05T03:34:48.838627Z"
     },
     {
       "title": "Senior Research Fellow, Junior Research Fellow     – 2 Posts",
@@ -101,7 +112,7 @@
       "post_date": "27/10/2026",
       "link": "https://www.freejobalert.com/articles/diat-recruitment-2026-apply-online-for-senior-research-fellow-junior-research-fellow-posts-3075898",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234503Z"
+      "scraped_at": "2026-11-05T03:34:48.838738Z"
     },
     {
       "title": "Scientific Assistant/B, Technician/B     – 4 Posts",
@@ -112,7 +123,7 @@
       "post_date": "27/10/2026",
       "link": "https://www.freejobalert.com/articles/barc-recruitment-2026-technician-b-scientific-assistant-b-3075860",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234612Z"
+      "scraped_at": "2026-11-05T03:34:48.838864Z"
     },
     {
       "title": "Principal",
@@ -123,7 +134,7 @@
       "post_date": "26/10/2026",
       "link": "https://www.freejobalert.com/articles/aps-old-amritsar-cantt-principal-recruitment-2026-apply-offline-3075739",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234671Z"
+      "scraped_at": "2026-11-05T03:34:48.838958Z"
     },
     {
       "title": "Junior Research Fellow     – 1 Posts",
@@ -134,7 +145,7 @@
       "post_date": "26/10/2026",
       "link": "https://www.freejobalert.com/articles/diat-junior-research-fellow-recruitment-2026-apply-online-3075717",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234735Z"
+      "scraped_at": "2026-11-05T03:34:48.839061Z"
     },
     {
       "title": "PGT, TGT, Nursing Sister and More     – 7 Posts",
@@ -145,7 +156,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/sainik-school-kodagu-recruitment-2026-apply-offline-for-7-pgt-tgt-nursing-sister-and-more-posts-3075627",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.234805Z"
+      "scraped_at": "2026-11-05T03:34:48.839191Z"
     },
     {
       "title": "Science Laboratory Attendant",
@@ -156,7 +167,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/aps-belagavi-science-laboratory-attendant-recruitment-2026-apply-offline-3075617",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234861Z"
+      "scraped_at": "2026-11-05T03:34:48.839284Z"
     },
     {
       "title": "TGT, Music Teacher and More     – 6 Posts",
@@ -167,7 +178,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/sainik-school-tilaiya-recruitment-2026-apply-offline-for-6-tgt-music-teacher-and-more-posts-3075600",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.234929Z"
+      "scraped_at": "2026-11-05T03:34:48.839394Z"
     },
     {
       "title": "Assistant Master, School Counsellor and More     – 4 Posts",
@@ -178,7 +189,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/rms-dholpur-recruitment-2026-apply-online-for-assistant-master-school-counsellor-and-more-posts-3075598",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.234999Z"
+      "scraped_at": "2026-11-05T03:34:48.839504Z"
     },
     {
       "title": "Inspector, Sub Inspector     – 57 Posts",
@@ -189,7 +200,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/nia-recruitment-2026-apply-offline-for-57-inspector-sub-inspector-posts-3075577",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.235066Z"
+      "scraped_at": "2026-11-05T03:34:48.839607Z"
     },
     {
       "title": "DEO, ASI, Head Constable     – 111 Posts",
@@ -200,7 +211,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/nia-recruitment-2026-apply-offline-for-111-deo-asi-head-constable-posts-3075579",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.235146Z"
+      "scraped_at": "2026-11-05T03:34:48.839709Z"
     },
     {
       "title": "Professor, Assistant Professor and More     – 7 Posts",
@@ -211,7 +222,7 @@
       "post_date": "23/10/2026",
       "link": "https://www.freejobalert.com/articles/diat-recruitment-2026-apply-online-for-7-professor-assistant-professor-and-more-posts-3075464",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.235224Z"
+      "scraped_at": "2026-11-05T03:34:48.839813Z"
     },
     {
       "title": "Trainee Marine Engineer, Electrical Officer and Other     – 28 Posts",
@@ -222,7 +233,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/dredging-corporation-of-india-recruitment-2026-walk-in-for-28-trainee-marine-engineer-electrical-officer-and-other-posts-3075192",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.235312Z"
+      "scraped_at": "2026-11-05T03:34:48.839931Z"
     },
     {
       "title": "Trade Apprentice     – 210 Posts",
@@ -233,7 +244,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/naval-dockyard-karwar-trade-apprentice-recruitment-2026-apply-online-for-210-posts-3072459",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235379Z"
+      "scraped_at": "2026-11-05T03:34:48.840038Z"
     },
     {
       "title": "Paid Intern     – 8 Posts",
@@ -244,7 +255,7 @@
       "post_date": "19/10/2026",
       "link": "https://www.freejobalert.com/articles/drde-recruitment-2026-paid-intern-3074392",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235443Z"
+      "scraped_at": "2026-11-05T03:34:48.840182Z"
     },
     {
       "title": "TGT and Mess Manager     – 5 Posts",
@@ -255,7 +266,7 @@
       "post_date": "17/10/2026",
       "link": "https://www.freejobalert.com/articles/sainik-school-chittorgarh-recruitment-2026-apply-offline-for-5-tgt-mess-manager-posts-3074331",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235512Z"
+      "scraped_at": "2026-11-05T03:34:48.840295Z"
     },
     {
       "title": "Nursing Assistant, Medical Officer and More     – 5 Posts",
@@ -266,29 +277,7 @@
       "post_date": "16/10/2026",
       "link": "https://www.freejobalert.com/articles/sainik-school-rewari-recruitment-2026-apply-offline-for-5-nursing-assistant-pgt-and-other-posts-3074253",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235584Z"
-    },
-    {
-      "title": "Consultant     – 6 Posts",
-      "organization": "DRDO LRDE",
-      "qualification": "Diploma",
-      "advt_no": "DRDO/LRDE/KRMD/Consultant/001/2026",
-      "last_date": "04-11-2026",
-      "post_date": "15/10/2026",
-      "link": "https://www.freejobalert.com/articles/drdo-lrde-consultant-recruitment-2026-apply-online-3073821",
-      "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235637Z"
-    },
-    {
-      "title": "Consultant     – 7 Posts",
-      "organization": "DMRL DRDO",
-      "qualification": "B.Sc, B.Tech/B.E, Diploma, M.Phil/Ph.D, M.Sc",
-      "advt_no": "DMRL/HRD/2026/Consultants/01",
-      "last_date": "04-11-2026",
-      "post_date": "14/10/2026",
-      "link": "https://www.freejobalert.com/articles/dmrl-drdo-consultant-recruitment-2026-apply-online-for-7-posts-3073589",
-      "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235707Z"
+      "scraped_at": "2026-11-05T03:34:48.840408Z"
     },
     {
       "title": "Chargeman     – 3 Posts",
@@ -299,7 +288,7 @@
       "post_date": "13/10/2026",
       "link": "https://www.freejobalert.com/articles/indian-coast-guard-chargeman-recruitment-2026-apply-offline-3072595",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235774Z"
+      "scraped_at": "2026-11-05T03:34:48.840538Z"
     },
     {
       "title": "Soldier, Junior Commissioned Officer and More     – 74 Posts",
@@ -310,7 +299,7 @@
       "post_date": "10/10/2026",
       "link": "https://www.freejobalert.com/articles/territorial-army-recruitment-2026-walk-in-for-74-soldier-junior-commissioned-officer-and-more-posts-3072586",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235839Z"
+      "scraped_at": "2026-11-05T03:34:48.840650Z"
     },
     {
       "title": "Specialist, Hindi Typist and More     – 11 Posts",
@@ -321,7 +310,7 @@
       "post_date": "10/10/2026",
       "link": "https://www.freejobalert.com/articles/oft-recruitment-2026-apply-online-for-11-specialist-hindi-typist-and-more-posts-3072601",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235908Z"
+      "scraped_at": "2026-11-05T03:34:48.840758Z"
     },
     {
       "title": "Sub Inspector     – 34 Posts",
@@ -332,7 +321,7 @@
       "post_date": "10/10/2026",
       "link": "https://www.freejobalert.com/articles/bsf-sub-inspector-recruitment-2026-apply-offline-for-34-posts-3072599",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.235964Z"
+      "scraped_at": "2026-11-05T03:34:48.840851Z"
     },
     {
       "title": "Tradesman     – 5 Posts",
@@ -343,7 +332,7 @@
       "post_date": "07/10/2026",
       "link": "https://www.freejobalert.com/articles/iopb-tradesman-recruitment-2026-apply-offline-3071401",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236026Z"
+      "scraped_at": "2026-11-05T03:34:48.840946Z"
     },
     {
       "title": "Sr. Inspector (Technical)     – 1 Posts",
@@ -354,7 +343,7 @@
       "post_date": "03/11/2026",
       "link": "https://www.freejobalert.com/articles/crs-sr-inspector-technical-recruitment-2027-3078126",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236195Z"
+      "scraped_at": "2026-11-05T03:34:48.841226Z"
     },
     {
       "title": "Bastar Fighter Constable     – 81 Posts",
@@ -365,7 +354,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/kondagaon-district-police-bastar-fighter-constable-recruitment-2026-3077870",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236264Z"
+      "scraped_at": "2026-11-05T03:34:48.841337Z"
     },
     {
       "title": "Bastar Fighter Constable     – 79 Posts",
@@ -376,7 +365,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/bastar-police-bastar-fighter-constable-recruitment-2026-3077791",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236328Z"
+      "scraped_at": "2026-11-05T03:34:48.841438Z"
     },
     {
       "title": "Clerk, DEO and More     – 36 Posts",
@@ -387,7 +376,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/echs-recruitment-2026-clerk-deo-peon-3077706",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236393Z"
+      "scraped_at": "2026-11-05T03:34:48.841547Z"
     },
     {
       "title": "Bastar Fighter Constable     – 417 Posts",
@@ -398,7 +387,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/cg-police-bilaspur-bastar-fighter-constable-recruitment-2026-3077712",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236459Z"
+      "scraped_at": "2026-11-05T03:34:48.841651Z"
     },
     {
       "title": "Bastar Fighter Constable     – 128 Posts",
@@ -409,7 +398,7 @@
       "post_date": "02/11/2026",
       "link": "https://www.freejobalert.com/articles/dantewada-police-bastar-fighter-constable-recruitment-2026-3077677",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236523Z"
+      "scraped_at": "2026-11-05T03:34:48.841758Z"
     },
     {
       "title": "Bastar Fighter Constable     – 375 Posts",
@@ -420,7 +409,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/sp-sukma-bastar-fighter-constable-recruitment-2026-3077631",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236585Z"
+      "scraped_at": "2026-11-05T03:34:48.841860Z"
     },
     {
       "title": "Rural Home Guard, Urban Home Guard     – 457 Posts",
@@ -431,7 +420,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/jhdc-latehar-recruitment-2026-home-guard-3077544",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236652Z"
+      "scraped_at": "2026-11-05T03:34:48.841968Z"
     },
     {
       "title": "Fighter Constable     – 375 Posts",
@@ -442,7 +431,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/cg-police-fighter-constable-recruitment-2026-3077334",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236715Z"
+      "scraped_at": "2026-11-05T03:34:48.842067Z"
     },
     {
       "title": "Constable, Firefighter and Driver     – 7268 Posts",
@@ -453,7 +442,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/odisha-police-constable-recruitment-2026-3075546",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.236765Z"
+      "scraped_at": "2026-11-05T03:34:48.842192Z"
     },
     {
       "title": "Bastar Fighter Constable     – 383 Posts",
@@ -464,7 +453,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/sp-narayanpur-bastar-fighter-constable-recruitment-2026-3077540",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236830Z"
+      "scraped_at": "2026-11-05T03:34:48.842307Z"
     },
     {
       "title": "Police Constable, Attender and More     – 16 Posts",
@@ -475,7 +464,7 @@
       "post_date": "31/10/2026",
       "link": "https://www.freejobalert.com/articles/kerala-psc-recruitment-2026-3077522",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236899Z"
+      "scraped_at": "2026-11-05T03:34:48.842415Z"
     },
     {
       "title": "Driver     – 70 Posts",
@@ -486,7 +475,7 @@
       "post_date": "24/10/2026",
       "link": "https://www.freejobalert.com/articles/wb-police-driver-recruitment-2026-3075661",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.236958Z"
+      "scraped_at": "2026-11-05T03:34:48.842520Z"
     },
     {
       "title": "Mobile Inspector",
@@ -497,7 +486,7 @@
       "post_date": "23/10/2026",
       "link": "https://www.freejobalert.com/articles/tmb-mobile-inspector-recruitment-2026-apply-online-3075489",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237014Z"
+      "scraped_at": "2026-11-05T03:34:48.842609Z"
     },
     {
       "title": "Special Police Officer     – 170 Posts",
@@ -508,7 +497,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/haryana-police-spo-recruitment-2026-3074411",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237079Z"
+      "scraped_at": "2026-11-05T03:34:48.842717Z"
     },
     {
       "title": "Fireman, Sweeper/Safaiwala and More     – 17 Posts",
@@ -519,7 +508,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/lpssrb-recruitment-2026-apply-online-for-17-sweeper-safaiwala-fireman-and-more-posts-3074456",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237156Z"
+      "scraped_at": "2026-11-05T03:34:48.842822Z"
     },
     {
       "title": "Junior Assistant, Computer Assistant and More     – 12 Posts",
@@ -530,7 +519,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/lpssrb-recruitment-2026-apply-online-for-12-junior-assistant-computer-assistant-and-more-posts-3074174",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237226Z"
+      "scraped_at": "2026-11-05T03:34:48.842933Z"
     },
     {
       "title": "Additional Director     – 1 Posts",
@@ -541,7 +530,7 @@
       "post_date": "22/10/2026",
       "link": "https://www.freejobalert.com/articles/dcpw-additional-director-recruitment-2026-apply-offline-3074965",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237289Z"
+      "scraped_at": "2026-11-05T03:34:48.843034Z"
     },
     {
       "title": "Constable     – 1137 Posts",
@@ -552,7 +541,7 @@
       "post_date": "16/10/2026",
       "link": "https://www.freejobalert.com/articles/nagaland-police-constable-recruitment-2026-3074062",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237351Z"
+      "scraped_at": "2026-11-05T03:34:48.843160Z"
     },
     {
       "title": "Assistant Inspector General of Forests     – 2 Posts",
@@ -563,7 +552,7 @@
       "post_date": "16/10/2026",
       "link": "https://www.freejobalert.com/articles/national-campa-assistant-inspector-general-of-forests-recruitment-2026-apply-online-3074012",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237436Z"
+      "scraped_at": "2026-11-05T03:34:48.843274Z"
     },
     {
       "title": "Assistant Motor Vehicle Inspector, Lab Assistant and More     – 106 Posts",
@@ -574,7 +563,7 @@
       "post_date": "14/10/2026",
       "link": "https://www.freejobalert.com/articles/appsc-recruitment-2026-apply-online-for-106-assistant-motor-vehicle-inspector-lab-assistant-and-more-posts-3073362",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237507Z"
+      "scraped_at": "2026-11-05T03:34:48.843412Z"
     },
     {
       "title": "Visiting Medical Consultant and Health Inspector     – 3 Posts",
@@ -585,7 +574,7 @@
       "post_date": "26/09/2026",
       "link": "https://www.freejobalert.com/articles/rgnau-recruitment-2026-apply-online-for-visiting-medical-consultant-and-health-inspector-posts-3069703",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237577Z"
+      "scraped_at": "2026-11-05T03:34:48.843522Z"
     },
     {
       "title": "Assistant, Assistant Communication Officer     – 61 Posts",
@@ -596,7 +585,7 @@
       "post_date": "11/09/2026",
       "link": "https://www.freejobalert.com/articles/dcpw-recruitment-2026-apply-offline-for-61-assistant-assistant-communication-officer-posts-3067486",
       "type": "Central",
-      "scraped_at": "2026-11-04T03:04:19.237637Z"
+      "scraped_at": "2026-11-05T03:34:48.843615Z"
     },
     {
       "title": "Visiting Medical Consultant, Visiting Health Inspector     – 3 Posts",
@@ -607,7 +596,7 @@
       "post_date": "09/09/2026",
       "link": "https://www.freejobalert.com/articles/rgnau-recruitment-2026-apply-online-for-visiting-medical-consultant-visiting-health-inspector-posts-3066974",
       "type": "State",
-      "scraped_at": "2026-11-04T03:04:19.237706Z"
+      "scraped_at": "2026-11-05T03:34:48.843726Z"
     }
   ]
 }
